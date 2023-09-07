@@ -57,6 +57,5 @@ sudo docker service scale web-server=3
 sudo docker service ls
 ```
 Kiểm tra bằng cách vào ip 3 máy và thêm `:8080` vào sau ip.
-https://www.linuxtechi.com/wp-content/uploads/2022/09/Nginx-Sample-Page-Docker-Swarm-Service.png?ezimgfmt=ng:webp/ngcb22
 
 ## Docker Redis
