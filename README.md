@@ -21,6 +21,7 @@ worker-node-2          10.0.5.102
 ```
 Sau khi thêm các máy vào thì ở mỗi máy chạy lệnh ping ip 2 máy còn lại để kiểm tra kết nối
 B2: Cài docker ở trên mỗi máy: https://github.com/tungbui2402/docker2/blob/main/README.md
+
 B3: Tạo docker swarm cluster:
 - Để tạo docker swarm chạy command:
 ```
