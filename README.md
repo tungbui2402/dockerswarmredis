@@ -9,6 +9,7 @@ Docker Swarm sử dụng API Docker tiêu chuẩn để giao tiếp với các c
 - Máy chủ: 10.0.5.100
 - Máy con 1: 10.0.5.101
 - Máy con 2: 10.0.5.102
+
 Mỗi máy yêu cầu phải cài docker.
 
 ### Tiến hành
