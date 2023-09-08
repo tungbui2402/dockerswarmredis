@@ -61,3 +61,17 @@ sudo docker service ls
 Kiểm tra bằng cách vào ip 3 máy và thêm `:8080` vào sau ip.
 
 ## Docker Redis
+Redis (REmote DIctionary Server) là một mã nguồn mở được dùng để lưu trữ dữ liệu có cấu trúc, có thể sử dụng như một database, bộ nhớ cache hay một message broker.
+### Cài đặt
+```
+docker run -p 6379:6379 -d redis
+```
+### Khởi động redis
+Đầu tiên sử dụng lệnh `ps -a` để liệt kê các container có trên máy:
+```
+docker ps -a
+```
+Sau đó chạy redis bằng lệnh:
+```
+docker exec -it id sh
+```
